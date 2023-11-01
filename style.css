@@ -1,6 +1,6 @@
 header {
     display: flex;
-    background-color:rgb(253, 234, 194);
+    background-color:rgb(232, 183, 244);
     flex-direction: row;
     justify-content: space-between;
 }
@@ -32,11 +32,27 @@ p {
     font-weight: 700;
 }
 footer {
-    background-color:rgb(253, 234, 194);
+    background-color:rgb(248, 190, 252);
     text-align: center;
 }
 .footer_text {
     font-style: italic;
     font-size: 18px;
-    color: rgb(91, 6, 209);
+    color: rgb(117, 4, 137);
+}
+.my_hamster {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+.sema {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+.information {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    background-color: rgb(218, 191, 243);
 }
