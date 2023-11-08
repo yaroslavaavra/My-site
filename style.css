@@ -44,15 +44,28 @@ footer {
     text-align: center;
     font-style: italic;
     font-size: 18px;
+    background-color: rgb(217, 187, 246);
+}
+.my_hamster-text {
+    font-size: 23px;
 }
 .sema {
     text-align: center;
     font-style: italic;
     font-size: 18px;
+    background-color: rgb(218, 191, 243);
 }
 .information {
     text-align: center;
     font-style: italic;
     font-size: 25px;
     background-color: rgb(218, 191, 243);
+}
+.my_hamster-link {
+    text-decoration: none;
+    background-color: #d77ff7;
+    border:2px solid rgb(125, 7, 154);
+    color: #040005;
+    width: 20%;
+    padding: 1px;
 }
