@@ -1,15 +1,21 @@
 header {
     display: flex;
-    background-color:rgb(232, 183, 244);
+    background-color:rgb(231, 167, 248);
     flex-direction: row;
     justify-content: space-between;
+}
+h1, h2, h3 {
+    margin: 0;
 }
 .img {
     width: 30px;
     height: 30px;
     padding: 10px;
     margin-right: 30px;
+    width: 35%;
+    border-radius: 8%;
 }
+
 li {
     list-style: none;
 }
@@ -44,7 +50,7 @@ footer {
     text-align: center;
     font-style: italic;
     font-size: 18px;
-    background-color: rgb(217, 187, 246);
+    background-color: rgb(190, 135, 242);
 }
 .my_hamster-text {
     font-size: 23px;
@@ -68,4 +74,7 @@ footer {
     color: #040005;
     width: 20%;
     padding: 1px;
+}
+body {
+    margin: 0;
 }
