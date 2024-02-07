@@ -4,7 +4,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
-h1, h2, h3 {
+h1, h2, h3, p {
     margin: 0;
 }
 .img {
@@ -32,10 +32,13 @@ ul {
 }
 div {
     display: flex;
+    align-items: center;
 }
 p {
     font-size: 20px;
     font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 footer {
     background-color:rgb(248, 190, 252);
@@ -46,6 +49,7 @@ footer {
     font-style: italic;
     font-size: 18px;
     color: rgb(117, 4, 137);
+    margin: 0;
 }
 .my_hamster {
     text-align: center;
@@ -61,14 +65,22 @@ footer {
     text-align: center;
     font-style: italic;
     font-size: 18px;
-    background-color: rgb(218, 191, 243);
+    background-color: rgb(235, 171, 255);
     padding: 25px;
+}
+.sema-img {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+h2 {
+    padding-bottom: 30px;
 }
 .information {
     text-align: center;
     font-style: italic;
     font-size: 25px;
-    background-color: rgb(218, 191, 243);
+    background-color: rgb(203, 170, 235);
+    padding: 25px;
 }
 .my_hamster-link {
     text-decoration: none;
@@ -82,3 +94,7 @@ footer {
 body {
     margin: 0;
 }
+.фото-хомячків {
+    padding-top: 20px;
+}
+
